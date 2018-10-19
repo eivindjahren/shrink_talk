@@ -39,7 +39,7 @@ Finally: finding a smaller input file
 
 +++
 
-The data: $ x1 \lor x2 \lor x3 \lor x4 \ldots $
+The data: $ (x1 \lor \lnot x2 \lor x3) \land (x4 \ldots $
 
 +++
 
