@@ -14,7 +14,7 @@ Let's go back to 2014...
 * My SAT solver is producing the wrong result.
 * Can compare result with someone elses SAT solver.
 * 10mb input file
-* Takes about 2 minutes and 100,000s of inference steps.
+* Takes about 2 minutes and more than 100,000 inference steps.
 
 ---
 
