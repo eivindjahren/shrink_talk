@@ -16,54 +16,56 @@ Let's go back to 2014...
 * 10mb input file
 * Takes about 2 minutes and 100,000s of inference steps.
 
-+++
+---
 
 I try several approaches
 
++++
+
 valgrind
 
----
++++
 
 conditional breaks in debugger
 
----
++++
 
 staring contest with the code
 
 
----
++++
 
 Finally: finding a smaller input file
 
----
++++
 
 The data: $ x1 \lor x2 \lor x3 \lor x4 \ldots $
 
----
++++
 
 Really just sets of sets of numbers
 
----
++++
 
 Use "shrinking": steepest gradiant descent search
 
 
-+++
+---
 
 Shrinking was developed for Property Testing
 
----
++++
 
 QuickCheck: a haskell property testing library
 
----
++++
 
 Hypothesis: a python property testing library
 
----
++++
 
 With Hypothesis and QuickCheck, no need to write the shrinking algorithm...
 
----
++++
 
 ... But we will do that anyways
